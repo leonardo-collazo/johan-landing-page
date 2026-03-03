@@ -1,0 +1,107 @@
+.social-media-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: clamp(8px, 3vw, 30px);
+}
+.social-media-list__element {
+  position: relative;
+}
+.social-media-list__element--whatsapp {
+  display: inline-block;
+  position: fixed;
+  /* bottom: 125px; */
+  /* right: 16px; */
+  margin: 0;
+  border-width: 4px;
+  border-radius: 50%;
+  border-color: #128c7e;
+  box-shadow: 0 0 10px 3px #128c7e;
+}
+.social-media-tooltip {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+.social-media-list__element:hover .social-media-tooltip {
+  opacity: 1;
+  visibility: visible;
+  top: -40px;
+}
+.social-media-link {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #4d4d4d;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.social-media-link:hover {
+  color: white;
+  box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+}
+.social-media {
+  position: relative;
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+}
+.social-media-filled {
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: #000;
+  transition: all 0.3s ease-in-out;
+}
+.social-media-link:hover .social-media-filled {
+  height: 100%;
+}
+
+.social-media-link[data-social="whatsapp"] .social-media-filled,
+.social-media-link[data-social="whatsapp"] ~ .social-media-tooltip {
+  background-color: #128c7e;
+}
+
+.social-media-link[data-social="tiktok"] .social-media-filled,
+.social-media-link[data-social="tiktok"] ~ .social-media-tooltip {
+  background-color: #000;
+}
+
+.social-media-link[data-social="facebook"] .social-media-filled,
+.social-media-link[data-social="facebook"] ~ .social-media-tooltip {
+  background-color: #3b5998;
+}
+
+.social-media-link[data-social="instagram"] .social-media-filled,
+.social-media-link[data-social="instagram"] ~ .social-media-tooltip {
+  background: linear-gradient(
+    45deg,
+    #405de6,
+    #5b51db,
+    #b33ab4,
+    #c135b4,
+    #e1306c,
+    #fd1f1f
+  );
+}
+.social-media-link[data-social="youtube"] .social-media-filled,
+.social-media-link[data-social="youtube"] ~ .social-media-tooltip {
+  background-color: #ff0000;
+}

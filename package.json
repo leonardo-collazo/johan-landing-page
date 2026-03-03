@@ -1,0 +1,14 @@
+{
+  "name": "johan-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page for a client's business",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leonardo Collazo Klenina <leonardo.collazo.klenina@gmail.com>",
+  "type": "module",
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
+}
