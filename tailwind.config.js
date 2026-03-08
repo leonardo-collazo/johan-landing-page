@@ -44,5 +44,18 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        ".gold-shine": {
+          background:
+            "linear-gradient(120deg, var(--dark-gold) 20%, var(--gold) 40%, var(--light-gold) 50%, var(--gold) 60%, var(--dark-gold) 80%)",
+          "background-size": "200% auto",
+          "-webkit-background-clip": "text",
+          "-webkit-text-fill-color": "transparent",
+          animation: "shine 4s linear infinite",
+        },
+      });
+    },
+  ],
 };
