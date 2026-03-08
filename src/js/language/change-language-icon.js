@@ -16,7 +16,6 @@ function changeLanguageIcon() {
   zoomOutLanguageIcon();
   setTimeout(loadLanguageIcon, 250);
   setTimeout(zoomInLanguageIcon, 250);
-  setTimeout(loadLanguageIcon, 250);
 }
 
 export { languageIcon, changeLanguageIcon };
