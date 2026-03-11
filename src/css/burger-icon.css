@@ -1,7 +1,6 @@
 .burger-icon__toggle {
-  width: 30px;
-  min-width: 30px;
-  height: 26px;
+  width: 36px;
+  height: 32px;
   padding: 4px;
   cursor: pointer;
   display: flex;
