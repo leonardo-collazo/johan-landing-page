@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
+        "mobile-xl": "480px",
         "mobile-large": "425px",
         "mobile-medium": "375px",
       },
@@ -53,7 +54,7 @@ module.exports = {
           "background-size": "200% auto",
           "-webkit-background-clip": "text",
           "-webkit-text-fill-color": "transparent",
-          animation: "shine 4s linear infinite",
+          animation: "shine 8s linear infinite",
         },
       });
     },

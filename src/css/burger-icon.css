@@ -23,7 +23,7 @@
 }
 
 .burger-icon__bar1--cross {
-  transform: rotate(47deg);
+  transform: rotate(50deg);
   transition-duration: 0.3s;
   transform-origin: left center;
 }
@@ -34,7 +34,7 @@
 }
 
 .burger-icon__bar3--cross {
-  transform: rotate(-47deg);
+  transform: rotate(-50deg);
   transition-duration: 0.3s;
   transform-origin: left center;
 }

@@ -173,7 +173,15 @@
 }
 
 @keyframes shine {
-  to {
-    background-position: 200% center;
+  0% {
+    background-position: -45% center;
+  }
+
+  50% {
+    background-position: 155% center;
+  }
+
+  100% {
+    background-position: 155% center;
   }
 }
