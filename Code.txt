@@ -432,3 +432,39 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam debitis eos 
         </div>
       </div>
     </footer>
+
+*** mobile-menu.css ***
+
+.mobile-menu__list {
+  /* list-style-type: none; */
+  /* display: flex;
+  flex-direction: column;
+  gap: 8px; */
+  /* padding: 0px 10px; */
+}
+
+*** header-manager.js ***
+
+const header = document.getElementById("header");
+const companyName = document.getElementById("company-name");
+const aboutTab = document.getElementById("about-tab");
+const servicesTab = document.getElementById("services-tab");
+const contactTab = document.getElementById("contact-tab");
+
+function onScrollY() {
+  if (window.scrollY > 70) {
+    header.classList.add("bg-white/90");
+    companyName.classList.remove("text-white");
+    aboutTab.classList.remove("text-white");
+    servicesTab.classList.remove("text-white");
+    contactTab.classList.remove("text-white");
+  } else {
+    header.classList.remove("bg-white/90");
+    companyName.classList.add("text-white");
+    aboutTab.classList.add("text-white");
+    servicesTab.classList.add("text-white");
+    contactTab.classList.add("text-white");
+  }
+}
+
+window.addEventListener("scroll", onScrollY);

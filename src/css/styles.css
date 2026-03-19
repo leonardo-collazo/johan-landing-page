@@ -22,6 +22,7 @@
   --animate-delay: 0.5s;
   --animate-repeat: 1;
   --language-icon-animate-duration: 0.25s;
+  --mobile-menu-animate-duration: 1s;
 }
 
 /* Global */
@@ -184,4 +185,54 @@
   100% {
     background-position: 155% center;
   }
+}
+
+@-webkit-keyframes pullDown {
+  from {
+    max-height: 0px;
+  }
+
+  to {
+    max-height: 200px;
+  }
+}
+@keyframes pullDown {
+  from {
+    max-height: 0px;
+  }
+
+  to {
+    max-height: 200px;
+  }
+}
+.animate__pullDown {
+  -webkit-animation-name: pullDown;
+  animation-name: pullDown;
+  -webkit-animation-duration: var(--mobile-menu-animate-duration);
+  animation-duration: var(--mobile-menu-animate-duration);
+}
+
+@-webkit-keyframes pullUp {
+  from {
+    max-height: 200px;
+  }
+
+  to {
+    max-height: 0px;
+  }
+}
+@keyframes pullUp {
+  from {
+    max-height: 200px;
+  }
+
+  to {
+    max-height: 0px;
+  }
+}
+.animate__pullUp {
+  -webkit-animation-name: pullUp;
+  animation-name: pullUp;
+  -webkit-animation-duration: var(--mobile-menu-animate-duration);
+  animation-duration: var(--mobile-menu-animate-duration);
 }

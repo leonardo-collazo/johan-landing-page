@@ -81,8 +81,9 @@
       id="header"
       class="w-full h-24 transform duration-300 border-b-2 border-solid border-black"
     >
+      <!-- Top Bar -->
       <div
-        class="w-full max-w-[1024px] h-full flex flex-row justify-between items-center gap-2 mx-auto p-2 mobile-large:p-3 md:p-4"
+        class="w-full max-w-[1024px] h-full flex flex-row justify-between items-center gap-1 mobile-medium:gap-2 mx-auto p-2 mobile-large:p-3 md:p-4"
       >
         <!-- Header Left Section -->
         <a
@@ -99,14 +100,16 @@
           <!-- Company Name -->
           <h1
             id="company-name"
-            class="inline-block max-w-[140px] mobile-medium:max-w-[180px] mobile-large:max-w-[220px] mobile-xl:max-w-none text-lg mobile-large:text-xl md:text-2xl lg:text-3xl text-left font-semibold gold-shine"
+            class="inline-block max-w-[130px] mobile-medium:max-w-[180px] mobile-large:max-w-[220px] mobile-xl:max-w-none text-lg mobile-large:text-xl md:text-2xl lg:text-3xl text-left font-semibold gold-shine"
           >
             Rise & Shine Home Services
           </h1>
         </a>
 
         <!-- Header Right Section -->
-        <div class="flex flex-row justify-between items-center gap-2">
+        <div
+          class="flex flex-row justify-between items-center gap-1 mobile-medium:gap-2"
+        >
           <!-- Tabs -->
           <div
             class="hidden lg:flex flex-row justify-center items-center gap-3"
@@ -186,9 +189,12 @@
       <!-- Mobile Menu -->
       <div
         id="mobile-menu"
-        class="mobile-menu w-[180px] mobile-large:w-[200px] sm:w-[220px] fixed top-[86px] right-[6px] shadow-xl animate__animated"
+        class="mobile-menu animate__animated"
       >
-        <div class="mobile-menu__list">
+        <div
+          id="mobile-menu__container"
+          class="mobile-menu__container"
+        >
           <a href="#about">
             <div class="mobile-menu__element">
               <p
@@ -223,6 +229,9 @@
           </a>
         </div>
       </div>
+
+      <!-- Remove this when the header is done, just to test the scroll behavior of the header -->
+      <div class="h-[1000px] bg-green-400"></div>
     </header>
   </body>
 </html>
