@@ -9,18 +9,12 @@ module.exports = {
         "mobile-medium": "375px",
       },
       backgroundImage: {
-        "hero-background-large-vertical":
-          "url('../assets/pictures/computer-hardware-large-vertical.jpg')",
-        "hero-background-medium-vertical":
-          "url('../assets/pictures/computer-hardware-medium-vertical.jpg')",
-        "hero-background-small-vertical":
-          "url('../assets/pictures/computer-hardware-small-vertical.jpg')",
-        "hero-background-large-horizontal":
-          "url('../assets/pictures/computer-hardware-large-horizontal.jpg')",
-        "hero-background-medium-horizontal":
-          "url('../assets/pictures/computer-hardware-medium-horizontal.jpg')",
-        "hero-background-small-horizontal":
-          "url('../assets/pictures/computer-hardware-small-horizontal.jpg')",
+        "hero-background-large":
+          "url('../assets/pictures/hero-background-large.jpg')",
+        "hero-background-medium":
+          "url('../assets/pictures/hero-background-medium.jpg')",
+        "hero-background-small":
+          "url('../assets/pictures/hero-background-small.jpg')",
         "advanced-electronic-diagnostics-service":
           "url('../assets/pictures/advanced-electronic-diagnostics-service.png')",
         "module-programming-and-coding-service":

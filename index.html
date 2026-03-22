@@ -79,11 +79,11 @@
   <body>
     <header
       id="header"
-      class="w-full h-24 transform duration-300 border-b-2 border-solid border-black"
+      class="w-full"
     >
       <!-- Top Bar -->
       <div
-        class="w-full max-w-[1024px] h-full flex flex-row justify-between items-center gap-1 mobile-medium:gap-2 mx-auto p-2 mobile-large:p-3 md:p-4"
+        class="w-full max-w-[1024px] h-[var(--header-height)] flex flex-row justify-between items-center gap-1 mobile-medium:gap-2 mx-auto p-2 mobile-large:p-3 md:p-4"
       >
         <!-- Header Left Section -->
         <a
@@ -229,9 +229,49 @@
           </a>
         </div>
       </div>
-
-      <!-- Remove this when the header is done, just to test the scroll behavior of the header -->
-      <div class="h-[1000px] bg-green-400"></div>
     </header>
+
+    <main class="bg-[var(--black)]">
+      <!-- Hero Section -->
+      <section
+        id="hero"
+        class="h-[calc(100vh-var(--header-height))] bg-hero-background-small mobile-large:bg-hero-background-medium lg:bg-hero-background-large bg-cover bg-no-repeat"
+      >
+        <div
+          class="w-full max-w-[1024px] flex flex-col gap-6 mx-auto px-4 md:px-6 pt-[60px] md:pt-[200px]"
+        >
+          <h1
+            i18n="hero-section-header"
+            class="text-5xl mobile-large:text-6xl md:text-7xl lg:text-8xl font-bold text-white"
+          >
+            Trusted Cleaning and Handyman Company
+          </h1>
+
+          <p
+            i18n="hero-section-info"
+            class="text-lg md:text-xl lg:text-2xl leading-6 text-white"
+          >
+            Amazing services for your home. We are committed to providing
+            top-notch cleaning and handyman solutions that exceed your
+            expectations.
+          </p>
+
+          <div
+            class="w-36 h-14 rounded-sm border-solid border-2 border-white bg-[var(--green)] cursor-pointer hover:brightness-75 transition-all duration-300"
+          >
+            <a
+              class="w-full h-full flex justify-center items-center"
+              href="#services"
+              ><p
+                i18n="hero-section-button"
+                class="w-min h-min text-xl text-white"
+              >
+                Services
+              </p></a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

@@ -14,7 +14,7 @@
   height: 2px;
   background-color: var(--black);
   border-radius: 5px;
-  transition-duration: 0.3s;
+  transition-duration: var(--burger-icon-animate-duration);
 }
 
 .burger-icon__bar--cross {
@@ -24,7 +24,7 @@
 
 .burger-icon__bar1--cross {
   transform: rotate(50deg);
-  transition-duration: 0.3s;
+  transition-duration: var(--burger-icon-animate-duration);
   transform-origin: left center;
 }
 
@@ -35,7 +35,7 @@
 
 .burger-icon__bar3--cross {
   transform: rotate(-50deg);
-  transition-duration: 0.3s;
+  transition-duration: var(--burger-icon-animate-duration);
   transform-origin: left center;
 }
 

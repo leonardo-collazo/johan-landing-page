@@ -1,5 +1,6 @@
 .mobile-menu {
   width: 100%;
+  min-height: 0px;
   max-height: 0px;
   background-color: var(--black);
   overflow: hidden;

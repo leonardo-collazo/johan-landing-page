@@ -28,8 +28,9 @@ const i18n = {
     "services-option": "Services",
     "contact-option": "Contact",
 
-    "hero-section-header": "Car Diagnostic",
-    "hero-section-info": "Your car doesn't talk... but we understand it.",
+    "hero-section-header": "Trusted Cleaning and Handyman Company",
+    "hero-section-info":
+      "Amazing services for your home. We are committed to providing top-notch cleaning and handyman solutions that exceed your expectations.",
     "hero-section-button": "Services",
 
     "about-section-header": "About Me",
