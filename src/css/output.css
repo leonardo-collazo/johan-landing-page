@@ -696,6 +696,10 @@ video {
   background-image: url('../assets/pictures/hero-background-small-2.jpg');
 }
 
+.bg-hero-background-small-1 {
+  background-image: url('../assets/pictures/hero-background-small-1.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -1027,6 +1031,10 @@ body {
     background-image: url('../assets/pictures/hero-background-medium-2.jpg');
   }
 
+  .mobile-large\:bg-hero-background-medium-1 {
+    background-image: url('../assets/pictures/hero-background-medium-1.jpg');
+  }
+
   .mobile-large\:p-3 {
     padding: 0.75rem;
   }
@@ -1076,6 +1084,10 @@ body {
 
   .lg\:bg-hero-background-large-2 {
     background-image: url('../assets/pictures/hero-background-large-2.jpg');
+  }
+
+  .lg\:bg-hero-background-large-1 {
+    background-image: url('../assets/pictures/hero-background-large-1.jpg');
   }
 
   .lg\:text-2xl {
