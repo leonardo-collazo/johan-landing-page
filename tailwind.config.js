@@ -9,12 +9,22 @@ module.exports = {
         "mobile-medium": "375px",
       },
       backgroundImage: {
-        "hero-background-large":
-          "url('../assets/pictures/hero-background-large.jpg')",
-        "hero-background-medium":
-          "url('../assets/pictures/hero-background-medium.jpg')",
-        "hero-background-small":
-          "url('../assets/pictures/hero-background-small.jpg')",
+        // First set of hero backgrounds
+        "hero-background-small-1":
+          "url('../assets/pictures/hero-background-small-1.jpg')",
+        "hero-background-medium-1":
+          "url('../assets/pictures/hero-background-medium-1.jpg')",
+        "hero-background-large-1":
+          "url('../assets/pictures/hero-background-large-1.jpg')",
+
+        // Second set of hero backgrounds
+        "hero-background-small-2":
+          "url('../assets/pictures/hero-background-small-2.jpg')",
+        "hero-background-medium-2":
+          "url('../assets/pictures/hero-background-medium-2.jpg')",
+        "hero-background-large-2":
+          "url('../assets/pictures/hero-background-large-2.jpg')",
+
         "advanced-electronic-diagnostics-service":
           "url('../assets/pictures/advanced-electronic-diagnostics-service.png')",
         "module-programming-and-coding-service":
@@ -49,6 +59,9 @@ module.exports = {
           "-webkit-background-clip": "text",
           "-webkit-text-fill-color": "transparent",
           animation: "shine 8s linear infinite",
+        },
+        ".text-black-outline": {
+          "-webkit-text-stroke": "1px var(--black)",
         },
       });
     },

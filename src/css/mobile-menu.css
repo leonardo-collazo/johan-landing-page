@@ -13,12 +13,12 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 10px;
+  gap: 12px;
   padding: 12px;
 }
 
 .mobile-menu__element {
-  padding: 4px 7px;
+  padding: 8px;
   border: solid 2px transparent;
   border-radius: 6px;
   cursor: pointer;
@@ -31,10 +31,6 @@
   color: var(--gold);
   transform: translate(1px, -1px);
 }
-
-/* .mobile-menu__element:active {
-  transform: scale(0.99);
-} */
 
 .mobile-menu__label {
   font-weight: 600;

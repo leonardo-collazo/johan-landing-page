@@ -28,10 +28,9 @@ const i18n = {
     "services-option": "Services",
     "contact-option": "Contact",
 
-    "hero-section-header": "Trusted Cleaning and Handyman Company",
-    "hero-section-info":
-      "Amazing services for your home. We are committed to providing top-notch cleaning and handyman solutions that exceed your expectations.",
-    "hero-section-button": "Services",
+    "hero-section-header-1": "Trusted Cleaning Company",
+    "hero-section-info-1": "SOLUTION AMAZING",
+    "hero-section-button-1": "Read More",
 
     "about-section-header": "About Me",
     "about-section-info":
@@ -73,10 +72,9 @@ const i18n = {
     "services-option": "Servicios",
     "contact-option": "Contacto",
 
-    "hero-section-header": "Diagn\u00f3stico Automotriz",
-    "hero-section-info":
-      "Tu auto no habla... pero nosotros s\u00ed lo entendemos.",
-    "hero-section-button": "Servicios",
+    "hero-section-header-1": "Empresa de Limpieza de Confianza",
+    "hero-section-info-1": "SOLUCI\u00d3N INCRE\u00cdBLE",
+    "hero-section-button-1": "Leer m\u00e1s",
 
     "about-section-header": "Sobre m\u00ed",
     "about-section-info":
