@@ -59,6 +59,10 @@
       src="./src/js/header/header-manager.js"
       defer
     ></script>
+    <script
+      type="module"
+      src="./src/js/main/hero-section-manager.js"
+    ></script>
 
     <!-- Fonts -->
     <link
@@ -234,14 +238,15 @@
     <main class="bg-[var(--black)]">
       <!-- Hero Section -->
       <section
-        id="hero"
-        class="h-[calc(100vh-var(--header-height))] bg-hero-background-small-1 mobile-large:bg-hero-background-medium-1 lg:bg-hero-background-large-1 bg-cover bg-no-repeat"
+        id="hero-section"
+        class="h-[calc(100vh-var(--header-height))] bg-hero-background-small-1 mobile-large:bg-hero-background-medium-1 lg:bg-hero-background-large-1 bg-cover bg-no-repeat transition-all duration-300"
       >
         <div
           class="w-full h-full max-w-[1024px] flex flex-col justify-center items-center gap-24 px-6"
         >
           <!-- First Text -->
           <h1
+            id="hero-section-header"
             i18n="hero-section-header-1"
             class="w-fit text-3xl mobile-large:text-6xl md:text-7xl lg:text-8xl text-center text-[var(--gold)] font-semibold text-black-outline underline decoration-[var(--black)] animate__animated animate__fadeInUp animate__fadeInUp--hero-section"
           >
@@ -250,10 +255,11 @@
 
           <!-- Second Text -->
           <p
+            id="hero-section-info"
             i18n="hero-section-info-1"
             class="w-fit text-4xl md:text-xl lg:text-2xl text-center text-[var(--gold)] text-black-outline font-bold animate__animated animate__fadeInUp animate__fadeInUp--hero-section"
           >
-            SOLUTION AMAZING
+            AMAZING SOLUTION
           </p>
 
           <!-- Button -->
@@ -266,7 +272,7 @@
               class="flex justify-center items-center gap-3 px-4 py-2 rounded-md border-solid border-2 border-[var(--black)] bg-[var(--gold)] hover:brightness-75 transition-all duration-300"
               href="#services"
               ><span
-                i18n="hero-section-button-1"
+                i18n="hero-section-button"
                 class="text-lg text-black"
               >
                 Read More

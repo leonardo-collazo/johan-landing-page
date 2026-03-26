@@ -28,9 +28,16 @@ const i18n = {
     "services-option": "Services",
     "contact-option": "Contact",
 
+    // Hero Section - First Text
     "hero-section-header-1": "Trusted Cleaning Company",
-    "hero-section-info-1": "SOLUTION AMAZING",
-    "hero-section-button-1": "Read More",
+    "hero-section-info-1": "AMAZING SOLUTION",
+
+    // Hero Section - Second Text
+    "hero-section-header-2": "Best Service Company",
+    "hero-section-info-2": "AMAZING SERVICE",
+
+    // Hero Section - Button
+    "hero-section-button": "Read More",
 
     "about-section-header": "About Me",
     "about-section-info":
@@ -72,9 +79,16 @@ const i18n = {
     "services-option": "Servicios",
     "contact-option": "Contacto",
 
+    // Hero Section - First Text
     "hero-section-header-1": "Empresa de Limpieza de Confianza",
     "hero-section-info-1": "SOLUCI\u00d3N INCRE\u00cdBLE",
-    "hero-section-button-1": "Leer m\u00e1s",
+
+    // Hero Section - Second Text
+    "hero-section-header-2": "Mejor Compañ\u00eda de Servicios",
+    "hero-section-info-2": "SERVICIO ASOMBROSO",
+
+    // Hero Section - Button
+    "hero-section-button": "Leer m\u00e1s",
 
     "about-section-header": "Sobre m\u00ed",
     "about-section-info":
