@@ -160,7 +160,7 @@
           <!-- Language Icon -->
           <img
             id="language-icon"
-            class="w-10 p-1 cursor-pointer animate__animated"
+            class="w-10 p-1 cursor-pointer animate__animated animate__zoomIn--language-icon animate__zoomOut--language-icon"
             src="./src/assets/icons/default-language.svg"
             alt="language icon"
           />
@@ -189,7 +189,7 @@
       <!-- Mobile Menu -->
       <div
         id="mobile-menu"
-        class="mobile-menu animate__animated"
+        class="mobile-menu animate__animated animate__pullDown--mobile-menu animate__pullUp--mobile-menu"
       >
         <div
           id="mobile-menu__container"
@@ -240,21 +240,28 @@
         <div
           class="w-full h-full max-w-[1024px] flex flex-col justify-center items-center gap-24 px-6"
         >
+          <!-- First Text -->
           <h1
             i18n="hero-section-header-1"
-            class="w-fit text-3xl mobile-large:text-6xl md:text-7xl lg:text-8xl text-center text-[var(--gold)] font-semibold text-black-outline underline decoration-[var(--black)]"
+            class="w-fit text-3xl mobile-large:text-6xl md:text-7xl lg:text-8xl text-center text-[var(--gold)] font-semibold text-black-outline underline decoration-[var(--black)] animate__animated animate__fadeInUp animate__fadeInUp--hero-section"
           >
             Trusted Cleaning Company
           </h1>
 
+          <!-- Second Text -->
           <p
             i18n="hero-section-info-1"
-            class="w-fit text-4xl md:text-xl lg:text-2xl text-center text-[var(--gold)] text-black-outline font-bold"
+            class="w-fit text-4xl md:text-xl lg:text-2xl text-center text-[var(--gold)] text-black-outline font-bold animate__animated animate__fadeInUp animate__fadeInUp--hero-section"
           >
             SOLUTION AMAZING
           </p>
 
-          <button type="button">
+          <!-- Button -->
+          <button
+            id="hero-section-button"
+            type="button"
+            class="animate__animated animate__fadeInUp animate__fadeInUp--hero-section"
+          >
             <a
               class="flex justify-center items-center gap-3 px-4 py-2 rounded-md border-solid border-2 border-[var(--black)] bg-[var(--gold)] hover:brightness-75 transition-all duration-300"
               href="#services"

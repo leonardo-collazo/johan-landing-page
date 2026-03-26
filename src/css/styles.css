@@ -18,10 +18,10 @@
   --dark-gold: #5c3d00;
 
   /* Animations */
-  --animate-duration: 0.5s;
-  --animate-delay: 0.5s;
+  --animate-duration: 1s;
+  --animate-delay: 1s;
   --animate-repeat: 1;
-  --language-icon-animate-duration: 0.25s;
+  --language-icon-animate-duration: 0.3s;
   --burger-icon-animate-duration: 0.3s;
   --mobile-menu-animate-duration: 1s;
 
@@ -60,11 +60,11 @@ body {
   animation-fill-mode: both;
 }
 
-@-webkit-keyframes fadeInRight {
+@-webkit-keyframes fadeInUp {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
   }
 
   to {
@@ -73,11 +73,11 @@ body {
     transform: translate3d(0, 0, 0);
   }
 }
-@keyframes fadeInRight {
+@keyframes fadeInUp {
   from {
     opacity: 0;
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
   }
 
   to {
@@ -86,36 +86,12 @@ body {
     transform: translate3d(0, 0, 0);
   }
 }
-.animate__fadeInRight {
-  -webkit-animation-name: fadeInRight;
-  animation-name: fadeInRight;
+.animate__fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
 }
-
-@-webkit-keyframes fadeOutRight {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
-  }
-}
-@keyframes fadeOutRight {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
-  }
-}
-.animate__fadeOutRight {
-  -webkit-animation-name: fadeOutRight;
-  animation-name: fadeOutRight;
+.animate__fadeInUp--hero-section {
+  animation-delay: 0.5s;
 }
 
 @-webkit-keyframes zoomIn {
@@ -145,8 +121,6 @@ body {
   animation-name: zoomIn;
 }
 .animate__zoomIn--language-icon {
-  -webkit-animation-name: zoomIn;
-  animation-name: zoomIn;
   -webkit-animation-duration: var(--language-icon-animate-duration);
   animation-duration: var(--language-icon-animate-duration);
 }
@@ -186,8 +160,6 @@ body {
   animation-name: zoomOut;
 }
 .animate__zoomOut--language-icon {
-  -webkit-animation-name: zoomOut;
-  animation-name: zoomOut;
   -webkit-animation-duration: var(--language-icon-animate-duration);
   animation-duration: var(--language-icon-animate-duration);
 }
@@ -227,6 +199,8 @@ body {
 .animate__pullDown {
   -webkit-animation-name: pullDown;
   animation-name: pullDown;
+}
+.animate__pullDown--mobile-menu {
   -webkit-animation-duration: var(--mobile-menu-animate-duration);
   animation-duration: var(--mobile-menu-animate-duration);
 }
@@ -252,6 +226,8 @@ body {
 .animate__pullUp {
   -webkit-animation-name: pullUp;
   animation-name: pullUp;
+}
+.animate__pullUp--mobile-menu {
   -webkit-animation-duration: var(--mobile-menu-animate-duration);
   animation-duration: var(--mobile-menu-animate-duration);
 }
