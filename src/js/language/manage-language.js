@@ -2,6 +2,7 @@ import { languageKey, languages, i18n } from "../constants/constants.js";
 
 function getLanguage() {
   let currentLanguage = localStorage.getItem(languageKey);
+
   if (!currentLanguage) {
     currentLanguage = languages.english;
   }

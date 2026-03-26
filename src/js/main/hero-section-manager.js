@@ -1,3 +1,6 @@
+import { getLanguage } from "../language/manage-language.js";
+import { languages, i18n } from "../constants/constants.js";
+
 const heroSection = document.getElementById("hero-section");
 const heroSectionHeader = document.getElementById("hero-section-header");
 const heroSectionInfo = document.getElementById("hero-section-info");
@@ -20,6 +23,15 @@ function updateHeroSectionText() {
     `hero-section-header-${currentOption}`,
   );
   heroSectionInfo.setAttribute("i18n", `hero-section-info-${currentOption}`);
+
+  const heroSectionHeaderKey = heroSectionHeader.getAttribute("i18n");
+  const heroSectionInfoKey = heroSectionInfo.getAttribute("i18n");
+  const currentLanguage = getLanguage();
+  const translations =
+    currentLanguage === languages.english ? i18n.eng : i18n.esp;
+
+  heroSectionHeader.textContent = translations[heroSectionHeaderKey];
+  heroSectionInfo.textContent = translations[heroSectionInfoKey];
 }
 
 function updateHeroSectionBackground() {
