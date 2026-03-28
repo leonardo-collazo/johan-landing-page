@@ -102,3 +102,4 @@ function updateHeroSection() {
 }
 
 setInterval(updateHeroSection, 10000);
+window.addEventListener("resize", updateHeroSectionBackground);
