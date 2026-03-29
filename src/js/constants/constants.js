@@ -20,10 +20,12 @@ const languages = {
 
 const i18n = {
   eng: {
+    // Header Tabs
     "about-tab": "About Me",
     "services-tab": "Services",
     "contact-tab": "Contact",
 
+    // Mobile Menu Options
     "about-option": "About Me",
     "services-option": "Services",
     "contact-option": "Contact",
@@ -39,9 +41,18 @@ const i18n = {
     // Hero Section - Button
     "hero-section-button": "Read More",
 
-    "about-section-header": "About Me",
-    "about-section-info":
-      "Specialists in cars that won't start. We decode codes, reprogram modules, and restore full access to your vehicle. All from our mobile unit, wherever you are.",
+    // About Section - Header
+    "about-section-header": "WHO WE ARE",
+
+    // About Section - Info
+    "about-section-info-1":
+      "Our company specializes in providing comprehensive solutions for home care and maintenance, combining professional cleaning services, maintenance, general repairs, and high-quality painting. We focus on delivering impeccable results, using specialized products and equipment that ensure the protection of every surface, piece of furniture, and item in your home. We know that every space is unique, so we tailor our methods to preserve the beauty and durability of your belongings, from carpets and upholstery to delicate decorative items.",
+
+    "about-section-info-2":
+      "When it comes to cleaning, we are dedicated to transforming every corner of your home into a fresh, healthy, and welcoming environment. Our team pays close attention to detail, ensuring a deep clean without compromising the integrity of your furniture or materials. We use modern techniques and safe products that eliminate dirt, dust, and bacteria, taking care of both your home and your family\u2019s well-being.",
+
+    "about-section-info-3":
+      "In addition, we offer maintenance and repair services to resolve any issues or damage in your home. From small repairs to more complex fixes, our goal is to ensure that everything works properly and safely. To complement these services, we perform interior and exterior painting, including cabinets, with professional finishes that refresh and enhance the appearance of your home. We are committed to delivering quality, efficiency, and reliability in every project, making us your ideal partner for comprehensive home maintenance.",
 
     "service-section-header": "Our Professional Services",
     "service1-name": "Advanced Electronic Diagnostics",
@@ -71,10 +82,12 @@ const i18n = {
     "reference-icons8": "Icons by",
   },
   esp: {
+    // Header Tabs
     "about-tab": "Sobre m\u00ed",
     "services-tab": "Servicios",
     "contact-tab": "Contacto",
 
+    // Mobile Menu Options
     "about-option": "Sobre m\u00ed",
     "services-option": "Servicios",
     "contact-option": "Contacto",
@@ -90,9 +103,18 @@ const i18n = {
     // Hero Section - Button
     "hero-section-button": "Leer m\u00e1s",
 
-    "about-section-header": "Sobre m\u00ed",
-    "about-section-info":
-      "Especialistas en autos que no encienden. Desciframos c\u00f3digos, reprogramamos m\u00f3dulos y recuperamos el acceso total a su veh\u00edculo. Todo desde nuestra unidad m\u00f3vil, donde quiera que usted se encuentre.",
+    // About Section - Header
+    "about-section-header": "QUI\u00c9NES SOMOS",
+
+    // About Section - Info
+    "about-section-info-1":
+      "Nuestra compa\u00f1\u00eda se especializa en ofrecer soluciones integrales para el cuidado y mantenimiento del hogar, combinando servicios de limpieza profesional, mantenimiento, reparaciones generales y pintura de alta calidad. Nos enfocamos en brindar resultados impecables, utilizando productos y equipos especializados que garantizan la protecci\u00f3n de cada superficie, mueble y objeto dentro de su hogar. Sabemos que cada espacio es \u00fanico, por lo que adaptamos nuestros m\u00e9todos para mantener la belleza y durabilidad de sus pertenencias, desde alfombras y tapicer\u00edas hasta delicados elementos decorativos.",
+
+    "about-section-info-2":
+      "En el \u00e1rea de limpieza, nos dedicamos a transformar cada rinc\u00f3n de su casa en un ambiente fresco, saludable y acogedor. Nuestro equipo presta atenci\u00f3n a los detalles, asegurando una limpieza profunda sin comprometer la integridad de sus muebles o materiales. Utilizamos t\u00e9cnicas modernas y productos seguros que eliminan suciedad, polvo y bacterias, cuidando tanto de su hogar como del bienestar de su familia.",
+
+    "about-section-info-3":
+      "Adem\u00e1s, ofrecemos servicios de mantenimiento y reparaci\u00f3n para resolver cualquier problema o desperfecto en su vivienda. Desde peque\u00f1as reparaciones hasta arreglos m\u00e1s complejos, nuestro objetivo es garantizar que todo funcione correctamente y con total seguridad. Complementando estos servicios, realizamos trabajos de pintura interior y exterior, incluyendo gabinetes, con acabados profesionales que renuevan y realzan la apariencia de su hogar. Nos comprometemos a ofrecer calidad, eficiencia y confianza en cada proyecto, convirti\u00e9ndonos en su aliado ideal para el mantenimiento completo de su casa.",
 
     "service-section-header": "Nuestros Servicios Profesionales",
     "service1-name": "Diagn\u00f3stico Electr\u00f3nico Avanzado",
