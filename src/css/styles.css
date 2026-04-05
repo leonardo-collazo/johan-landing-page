@@ -5,16 +5,16 @@
 :root {
   /* Colors */
   --black: #282623;
-  --warm-black-1: #201e1c;
-  --warm-black-2: #282623;
+  --hard-black: #201e1c;
+  --warm-black: #303030;
   --grey: #bababa;
   --hard-grey-1: #757575;
-  --hard-grey-2: #808080;
+  --hard-grey-2: #505050;
   --white: #fff;
   --hard-white-1: #faf8f7;
   --hard-white-2: #f2f2f2;
   --light-gold: #fff2a8;
-  --gold: #ffd700;
+  --gold: #e6c200;
   --dark-gold: #5c3d00;
 
   /* Animations */

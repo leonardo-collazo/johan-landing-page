@@ -205,7 +205,7 @@
                 i18n="about-option"
                 class="mobile-menu__label"
               >
-                About
+                Who We Are
               </p>
             </div>
           </a>
@@ -216,7 +216,7 @@
                 i18n="services-option"
                 class="mobile-menu__label"
               >
-                Services
+                What We Offer
               </p>
             </div>
           </a>
@@ -298,40 +298,169 @@
         id="about"
         class="w-full max-w-screen-lg flex flex-col gap-5 mx-auto px-4 py-8 mobile-large:px-6 scroll-mt-32"
       >
+        <!-- Section Header -->
         <h1
           i18n="about-section-header"
           class="text-xl md:text-2xl font-bold text-[var(--gold)] underline decoration-[var(--gold)]"
         >
           WHO WE ARE
         </h1>
-        <pre
+
+        <!-- Section Info -->
+        <p
           i18n="about-section-info-1"
-          class="font-open-sans text-lg md:text-xl lg:text-2xl whitespace-pre-wrap text-[var(--gold)]"
+          class="text-base md:text-lg lg:text-xl text-[var(--gold)]"
         >
-Our company offers comprehensive home care solutions, including professional cleaning, maintenance, repairs, and high-quality painting. We focus on delivering impeccable results using specialized products and equipment that protect every surface and personal item.
-        </pre>
+          Our company offers comprehensive home care solutions, including
+          professional cleaning, maintenance, repairs, and high-quality
+          painting. We focus on delivering impeccable results using specialized
+          products and equipment that protect every surface and personal item.
+        </p>
         <img
-          src="./src/assets/icons/cleaning-tools.png"
+          src="./src/assets/pictures/about-section-cleaning-tools.png"
           alt="Cleaning tools icon"
           class="max-w-64 mx-auto"
         />
-        <pre
+        <p
           i18n="about-section-info-2"
-          class="font-open-sans text-lg md:text-xl lg:text-2xl whitespace-pre-wrap text-[var(--gold)]"
+          class="text-base md:text-lg lg:text-xl text-[var(--gold)]"
         >
-In the area of cleaning, we transform every space into a fresh, healthy, and welcoming environment. We use modern, safe techniques that remove dirt and bacteria without damaging furniture or materials.
-        </pre>
+          In the area of cleaning, we transform every space into a fresh,
+          healthy, and welcoming environment. We use modern, safe techniques
+          that remove dirt and bacteria without damaging furniture or materials.
+        </p>
         <img
-          src="./src/assets/icons/handyman-tools.png"
+          src="./src/assets/pictures/about-section-handyman-tools.png"
           alt="Handyman tools icon"
           class="max-w-64 mx-auto"
         />
-        <pre
+        <p
           i18n="about-section-info-3"
-          class="font-open-sans text-lg md:text-xl lg:text-2xl whitespace-pre-wrap text-[var(--gold)]"
+          class="text-base md:text-lg lg:text-xl text-[var(--gold)]"
         >
-We also provide maintenance and repair services to ensure your home runs smoothly. Additionally, we perform interior and exterior painting with professional finishes that refresh and enhance every space.
-        </pre>
+          We also provide maintenance and repair services to ensure your home
+          runs smoothly. Additionally, we perform interior and exterior painting
+          with professional finishes that refresh and enhance every space.
+        </p>
+      </section>
+
+      <!-- Services Section -->
+      <section
+        id="services"
+        class="w-full max-w-screen-lg flex flex-col gap-5 mx-auto px-4 py-8 mobile-large:px-6 scroll-mt-40"
+      >
+        <!-- Section Header -->
+        <h1
+          i18n="service-section-header"
+          class="text-xl md:text-2xl font-bold text-[var(--gold)] underline decoration-[var(--gold)]"
+        >
+          WHAT WE OFFER
+        </h1>
+
+        <!-- Section Info -->
+        <p
+          i18n="service-section-info"
+          class="text-base md:text-lg lg:text-xl text-[var(--gold)]"
+        >
+          Our pricing is customized to meet your specific needs. We perform a
+          thorough initial assessment of your property and the requested
+          services to provide an accurate and competitive estimate.
+        </p>
+
+        <!-- Services -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 mt-2">
+          <!-- Service 1 -->
+          <div
+            class="min-h-72 flex flex-col justify-center items-center gap-5 p-4 bg-service-card-background bg-cover border-2 border-solid rounded-md border-[var(--gold)] transform transition-all duration-300 hover:scale-105 hover:-translate-y-2 hover:z-20 hover:shadow-[0_0_25px_rgba(255,215,0,0.6)]"
+          >
+            <img
+              src="./src/assets/pictures/service-cleaning-tools.png"
+              alt="Cleaning tools icon"
+              class="max-w-20"
+            />
+            <h2
+              i18n="service-name-1"
+              class="text-center text-xl font-bold text-[var(--gold)] underline decoration-[var(--gold)]"
+            >
+              Service name
+            </h2>
+            <p
+              i18n="service-details-1"
+              class="text-center text-base text-[var(--gold)]"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+
+          <!-- Service 2 -->
+          <div
+            class="min-h-72 flex flex-col justify-center items-center gap-5 p-4 bg-service-card-background bg-cover border-2 border-solid rounded-md border-[var(--gold)] transform transition-all duration-300 hover:scale-105 hover:-translate-y-2 hover:z-20 hover:shadow-[0_0_25px_rgba(255,215,0,0.6)]"
+          >
+            <img
+              src="./src/assets/pictures/service-handyman-tools.png"
+              alt="Handyman tools icon"
+              class="max-w-20"
+            />
+            <h2
+              i18n="service-name-2"
+              class="text-center text-xl font-bold text-[var(--gold)] underline decoration-[var(--gold)]"
+            >
+              Service name
+            </h2>
+            <p
+              i18n="service-details-2"
+              class="text-center text-base text-[var(--gold)]"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+
+          <!-- Service 3 -->
+          <div
+            class="min-h-72 flex flex-col justify-center items-center gap-5 p-4 bg-service-card-background bg-cover border-2 border-solid rounded-md border-[var(--gold)] transform transition-all duration-300 hover:scale-105 hover:-translate-y-2 hover:z-20 hover:shadow-[0_0_25px_rgba(255,215,0,0.6)]"
+          >
+            <img
+              src="./src/assets/pictures/service-painting-tools.png"
+              alt="Painting tools icon"
+              class="max-w-20"
+            />
+            <h2
+              i18n="service-name-3"
+              class="text-center text-xl font-bold text-[var(--gold)] underline decoration-[var(--gold)]"
+            >
+              Service name
+            </h2>
+            <p
+              i18n="service-details-3"
+              class="text-center text-base text-[var(--gold)]"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+
+          <!-- Service 4 -->
+          <div
+            class="min-h-72 flex flex-col justify-center items-center gap-5 p-4 bg-service-card-background bg-cover border-2 border-solid rounded-md border-[var(--gold)] transform transition-all duration-300 hover:scale-105 hover:-translate-y-2 hover:z-20 hover:shadow-[0_0_25px_rgba(255,215,0,0.6)]"
+          >
+            <img
+              src="./src/assets/pictures/service-cabinet-painting.png"
+              alt="Cabinet painting icon"
+              class="max-w-20"
+            />
+            <h2
+              i18n="service-name-4"
+              class="text-center text-xl font-bold text-[var(--gold)] underline decoration-[var(--gold)]"
+            >
+              Service name
+            </h2>
+            <p
+              i18n="service-details-4"
+              class="text-center text-base text-[var(--gold)]"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
       </section>
 
       <div class="h-screen bg-black"></div>

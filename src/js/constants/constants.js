@@ -21,13 +21,13 @@ const languages = {
 const i18n = {
   eng: {
     // Header Tabs
-    "about-tab": "About Me",
-    "services-tab": "Services",
+    "about-tab": "Who We Are",
+    "services-tab": "What We Offer",
     "contact-tab": "Contact",
 
     // Mobile Menu Options
-    "about-option": "About Me",
-    "services-option": "Services",
+    "about-option": "Who We Are",
+    "services-option": "What We Offer",
     "contact-option": "Contact",
 
     // Hero Section - First Text
@@ -54,25 +54,29 @@ const i18n = {
     "about-section-info-3":
       "We also provide maintenance and repair services to ensure your home runs smoothly. Additionally, we perform interior and exterior painting with professional finishes that refresh and enhance every space.",
 
-    "service-section-header": "Our Professional Services",
-    "service1-name": "Advanced Electronic Diagnostics",
-    "service1-details":
-      "Complete inspection with OEM equipment to identify faults in the starter, modules, CAN network, sensors, actuators, and safety systems. Includes code reading, active testing, and verification of communication between modules.",
-    "service1-price": "From $250",
-    "service2-name": "Module Programming and Coding",
-    "service2-details":
-      "Reprogramming, coding, or replacement of modules such as ECU, TCM, BCM, ABS, immobilizers, among others. Use of official software and tools compatible with manufacturers (GM, Ford, Chrysler, Honda, etc.).",
-    "service2-price": "From $200",
-    "service3-name": "Professional Automotive Locksmith",
-    "service3-details":
-      "Generation, cloning, and programming of smart keys, chips, remote controls, and emergency keys. Specialized service for lost, damaged, or duplicate keys. Includes vehicles with Keyless and Proximity systems.",
-    "service3-price": "From $60",
-    "service4-name": "Automotive Air Conditioning Service",
-    "service4-details":
-      "Diagnosis and repair of A/C systems. R-134a or R-1234yf gas charging, leak detection, compressor inspection, pressure and electronic operation checks. Mobile service with recovery, vacuum and recharge equipment.",
-    "service4-price": "From $150",
-    "service-section-footer":
-      "All our services have a starting price as shown. If the job requires it, the price may increase, but not without first letting the customer know.",
+    // Services Section - Header
+    "service-section-header": "WHAT WE OFFER",
+
+    // Services Section - Info
+    "service-section-info":
+      "Our pricing is customized to meet your specific needs. We perform a thorough initial assessment of your property and the requested services to provide an accurate and competitive estimate.",
+
+    // Services Section - Individual Services
+    "service-name-1": "General Cleaning",
+    "service-details-1":
+      "We provide deep cleaning services to keep your home spotless, healthy, and well-organized. We use specialized products and equipment that protect every surface while delivering high-quality results.",
+
+    "service-name-2": "Handyman Services",
+    "service-details-2":
+      "We perform a wide variety of practical household tasks. From installations and minor repairs to preventive maintenance, we ensure safety and proper functionality.",
+
+    "service-name-3": "Interior and Exterior Painting",
+    "service-details-3":
+      "We provide professional interior and exterior painting services to refresh and protect your home. We use high-quality materials and precise techniques to achieve durable and uniform finishes.",
+
+    "service-name-4": "Cabinet Painting",
+    "service-details-4":
+      "We transform your cabinets with specialized paint that enhances their appearance without the need for replacement. Our process ensures a clean, durable, and visually appealing finish.",
 
     "contact-section-header": "Contact",
     "contact-section-address": "Address",
@@ -83,13 +87,13 @@ const i18n = {
   },
   esp: {
     // Header Tabs
-    "about-tab": "Sobre m\u00ed",
-    "services-tab": "Servicios",
+    "about-tab": "Qui\u00e9nes Somos",
+    "services-tab": "Qu\u00e9 Ofrecemos",
     "contact-tab": "Contacto",
 
     // Mobile Menu Options
-    "about-option": "Sobre m\u00ed",
-    "services-option": "Servicios",
+    "about-option": "Qui\u00e9nes Somos",
+    "services-option": "Qu\u00e9 Ofrecemos",
     "contact-option": "Contacto",
 
     // Hero Section - First Text
@@ -97,7 +101,7 @@ const i18n = {
     "hero-section-info-1": "SOLUCI\u00d3N INCRE\u00cdBLE",
 
     // Hero Section - Second Text
-    "hero-section-header-2": "Mejor Compañ\u00eda de Servicios",
+    "hero-section-header-2": "Mejor Compa\u00f1\u00eda de Servicios",
     "hero-section-info-2": "SERVICIO ASOMBROSO",
 
     // Hero Section - Button
@@ -116,25 +120,29 @@ const i18n = {
     "about-section-info-3":
       "Tambi\u00e9n brindamos servicios de mantenimiento y reparaci\u00f3n para asegurar el buen funcionamiento del hogar. Adem\u00e1s, realizamos trabajos de pintura interior y exterior con acabados profesionales que renuevan y realzan cada espacio.",
 
-    "service-section-header": "Nuestros Servicios Profesionales",
-    "service1-name": "Diagn\u00f3stico Electr\u00f3nico Avanzado",
-    "service1-details":
-      "Inspecci\u00f3n completa con equipos OEM para identificar fallos en arranque, m\u00f3dulos, red CAN, sensores, actuadores y sistemas de seguridad. Incluye lectura de c\u00f3digos, pruebas activas y verificaci\u00f3n de comunicaci\u00f3n entre m\u00f3dulos.",
-    "service1-price": "Desde $250",
-    "service2-name": "Programaci\u00f3n y Codificaci\u00f3n de M\u00f3dulos",
-    "service2-details":
-      "Reprogramaci\u00f3n, codificaci\u00f3n o reemplazo de m\u00f3dulos como ECU, TCM, BCM, ABS, inmovilizadores, entre otros. Uso de software oficial y herramientas compatibles con fabricantes (GM, Ford, Chrysler, Honda, etc.).",
-    "service2-price": "Desde $200",
-    "service3-name": "Cerrajer\u00eda Automotriz Profesional",
-    "service3-details":
-      "Generaci\u00f3n, clonaci\u00f3n y programaci\u00f3n de llaves inteligentes, chip, control remoto y llaves de emergencia. Servicio especializado para llaves perdidas, dañadas o duplicadas. Incluye veh\u00edculos con sistemas Keyless y Proximity.",
-    "service3-price": "Desde $60",
-    "service4-name": "Servicio de Aire Acondicionado Automotriz",
-    "service4-details":
-      "Diagn\u00f3stico y reparaci\u00f3n de sistemas de A/C. Carga de gas R-134a o R-1234yf, detecci\u00f3n de fugas, revisi\u00f3n de compresor, presiones y funcionamiento electr\u00f3nico. Servicio m\u00f3vil con equipos de recuperaci\u00f3n, vac\u00edo y recarga.",
-    "service4-price": "Desde $150",
-    "service-section-footer":
-      "Todos nuestros servicios tienen un precio inicial como se muestra. Si el trabajo lo requiere, el precio podr\u00eda aumentar, pero no sin antes dejarle saber al cliente.",
+    // Services Section - Header
+    "service-section-header": "QU\u00c9 OFRECEMOS",
+
+    // Services Section - Info
+    "service-section-info":
+      "Nuestros precios se adaptan a sus necesidades espec\u00edficas. Realizamos una evaluaci\u00f3n inicial exhaustiva de su propiedad y de los servicios solicitados para ofrecerle un presupuesto preciso y competitivo.",
+
+    // Services Section - Individual Services
+    "service-name-1": "Limpieza general",
+    "service-details-1":
+      "Ofrecemos servicios de limpieza profunda para mantener su hogar impecable, saludable y organizado. Utilizamos productos y equipos especializados que protegen cada superficie y garantizan resultados de alta calidad.",
+
+    "service-name-2": "Servicios de handyman",
+    "service-details-2":
+      "Realizamos una amplia variedad de trabajos pr\u00e1cticos para el hogar. Desde instalaciones y reparaciones menores hasta mantenimiento preventivo, garantizamos seguridad y buen funcionamiento.",
+
+    "service-name-3": "Pintura interior y exterior",
+    "service-details-3":
+      "Ofrecemos servicios profesionales de pintura interior y exterior para renovar y proteger su hogar. Utilizamos materiales de alta calidad y t\u00e9cnicas precisas para lograr acabados duraderos y uniformes.",
+
+    "service-name-4": "Pintura de gabinetes",
+    "service-details-4":
+      "Transformamos sus gabinetes con pintura especializada que mejora su apariencia sin necesidad de reemplazarlos. Nuestro proceso garantiza un acabado resistente, limpio y visualmente atractivo.",
 
     "contact-section-header": "Contacto",
     "contact-section-address": "Direcci\u00f3n",

@@ -25,27 +25,9 @@ module.exports = {
         "hero-background-large-2":
           "url('../assets/pictures/hero-background-large-2.jpg')",
 
-        "advanced-electronic-diagnostics-service":
-          "url('../assets/pictures/advanced-electronic-diagnostics-service.png')",
-        "module-programming-and-coding-service":
-          "url('../assets/pictures/module-programming-and-coding-service.png')",
-        "professional-automotive-locksmith-service":
-          "url('../assets/pictures/professional-automotive-locksmith-service.png')",
-        "automotive-air-conditioning-service":
-          "url('../assets/pictures/automotive-air-conditioning-service.png')",
-      },
-      boxShadow: {
-        "service-card-shadow": "0 0 14px 10px rgba(255, 255, 255, 0.45)",
-      },
-      fontFamily: {
-        "open-sans": [
-          "Open Sans",
-          "Calibri",
-          "Segoe UI",
-          "Tahoma",
-          "Arial",
-          "sans-serif",
-        ],
+        // Service card background
+        "service-card-background":
+          "url('../assets/pictures/service-card-background.jpg')",
       },
     },
   },
