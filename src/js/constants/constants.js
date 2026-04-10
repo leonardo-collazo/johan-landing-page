@@ -23,12 +23,12 @@ const i18n = {
     // Header Tabs
     "about-tab": "Who We Are",
     "services-tab": "What We Offer",
-    "contact-tab": "Contact",
+    "contact-tab": "Contact Us",
 
     // Mobile Menu Options
     "about-option": "Who We Are",
     "services-option": "What We Offer",
-    "contact-option": "Contact",
+    "contact-option": "Contact Us",
 
     // Hero Section - First Text
     "hero-section-header-1": "Trusted Cleaning Company",
@@ -78,10 +78,14 @@ const i18n = {
     "service-details-4":
       "We transform your cabinets with specialized paint that enhances their appearance without the need for replacement. Our process ensures a clean, durable, and visually appealing finish.",
 
-    "contact-section-header": "Contact",
+    // Contact Section
+    "contact-section-header": "CONTACT US",
     "contact-section-address": "Address",
     "contact-section-phone": "Phone",
     "contact-section-email": "Email",
+    "contact-section-hours-header": "Hours",
+    "contact-section-hours-info":
+      "Monday - Friday:\n8am - 6pm\n\nSaturday:\n9am - 4pm\n\nSunday:\nClosed",
 
     "reference-icons8": "Icons by",
   },
@@ -89,12 +93,12 @@ const i18n = {
     // Header Tabs
     "about-tab": "Qui\u00e9nes Somos",
     "services-tab": "Qu\u00e9 Ofrecemos",
-    "contact-tab": "Contacto",
+    "contact-tab": "Cont\u00e1ctanos",
 
     // Mobile Menu Options
     "about-option": "Qui\u00e9nes Somos",
     "services-option": "Qu\u00e9 Ofrecemos",
-    "contact-option": "Contacto",
+    "contact-option": "Cont\u00e1ctanos",
 
     // Hero Section - First Text
     "hero-section-header-1": "Empresa de Limpieza de Confianza",
@@ -144,10 +148,14 @@ const i18n = {
     "service-details-4":
       "Transformamos sus gabinetes con pintura especializada que mejora su apariencia sin necesidad de reemplazarlos. Nuestro proceso garantiza un acabado resistente, limpio y visualmente atractivo.",
 
-    "contact-section-header": "Contacto",
+    // Contact Section
+    "contact-section-header": "CONT\u00c1CTANOS",
     "contact-section-address": "Direcci\u00f3n",
     "contact-section-phone": "Tel\u00e9fono",
     "contact-section-email": "Correo",
+    "contact-section-hours-header": "Horario",
+    "contact-section-hours-info":
+      "Lunes - Viernes:\n8am - 6pm\n\nS\u00e1bado:\n9am - 4pm\n\nDomingo:\nCerrado",
 
     "reference-icons8": "\u00cdconos por",
   },
