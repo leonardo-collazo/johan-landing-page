@@ -86,8 +86,6 @@ const i18n = {
     "contact-section-hours-header": "Hours",
     "contact-section-hours-info":
       "Monday - Friday:\n8am - 6pm\n\nSaturday:\n9am - 4pm\n\nSunday:\nClosed",
-
-    "reference-icons8": "Icons by",
   },
   esp: {
     // Header Tabs
@@ -156,8 +154,6 @@ const i18n = {
     "contact-section-hours-header": "Horario",
     "contact-section-hours-info":
       "Lunes - Viernes:\n8am - 6pm\n\nS\u00e1bado:\n9am - 4pm\n\nDomingo:\nCerrado",
-
-    "reference-icons8": "\u00cdconos por",
   },
 };
 
