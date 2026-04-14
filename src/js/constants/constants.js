@@ -21,9 +21,9 @@ const languages = {
 const i18n = {
   eng: {
     // Header Tabs
-    "about-tab": "Who We Are",
-    "services-tab": "What We Offer",
-    "contact-tab": "Contact Us",
+    "about-tab": "About Us",
+    "services-tab": "Services",
+    "contact-tab": "Contact",
 
     // Mobile Menu Options
     "about-option": "Who We Are",
@@ -91,9 +91,9 @@ const i18n = {
   },
   esp: {
     // Header Tabs
-    "about-tab": "Qui\u00e9nes Somos",
-    "services-tab": "Qu\u00e9 Ofrecemos",
-    "contact-tab": "Cont\u00e1ctanos",
+    "about-tab": "Acerca de",
+    "services-tab": "Servicios",
+    "contact-tab": "Contacto",
 
     // Mobile Menu Options
     "about-option": "Qui\u00e9nes Somos",

@@ -36,11 +36,11 @@ module.exports = {
       addUtilities({
         ".gold-shine": {
           background:
-            "linear-gradient(120deg, var(--dark-gold) 20%, var(--gold) 40%, var(--light-gold) 50%, var(--gold) 60%, var(--dark-gold) 80%)",
+            "linear-gradient(120deg, var(--gold) 20%, var(--light-gold) 40%, var(--dark-gold) 50%, var(--light-gold) 60%, var(--gold) 80%)",
           "background-size": "200% auto",
           "-webkit-background-clip": "text",
           "-webkit-text-fill-color": "transparent",
-          animation: "shine 8s linear infinite",
+          animation: "shine 6s linear infinite",
         },
         ".text-black-outline": {
           "-webkit-text-stroke": "1px var(--black)",

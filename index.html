@@ -83,7 +83,7 @@
   <body>
     <header
       id="header"
-      class="w-full"
+      class="w-full bg-service-card-background bg-cover"
     >
       <!-- Top Bar -->
       <div
@@ -103,7 +103,6 @@
 
           <!-- Company Name -->
           <h1
-            id="company-name"
             class="inline-block max-w-[140px] mobile-medium:max-w-[180px] mobile-large:max-w-[220px] mobile-xl:max-w-none text-lg mobile-large:text-xl md:text-2xl lg:text-3xl text-left font-semibold gold-shine"
           >
             Rise & Shine Home Services
@@ -121,13 +120,13 @@
             <a href="#about">
               <div
                 id="about-tab"
-                class="px-3 py-2 border-2 border-solid rounded-xl border-transparent text-white hover:text-green-500 hover:border-green-500 transform duration-300"
+                class="px-1 py-4 border-2 border-solid rounded-xl border-transparent text-white hover:text-[var(--gold)] hover:border-[var(--gold)] transform duration-300"
               >
                 <p
                   i18n="about-tab"
-                  class="text-xl font-semibold"
+                  class="w-min min-w-28 text-xl text-center font-semibold"
                 >
-                  About
+                  About Us
                 </p>
               </div>
             </a>
@@ -135,11 +134,11 @@
             <a href="#services">
               <div
                 id="services-tab"
-                class="px-3 py-2 border-2 border-solid rounded-xl border-transparent text-white hover:text-green-500 hover:border-green-500 transform duration-300"
+                class="px-1 py-4 border-2 border-solid rounded-xl border-transparent text-white hover:text-[var(--gold)] hover:border-[var(--gold)] transform duration-300"
               >
                 <p
                   i18n="services-tab"
-                  class="text-xl font-semibold"
+                  class="w-min min-w-28 text-xl text-center font-semibold"
                 >
                   Services
                 </p>
@@ -149,11 +148,11 @@
             <a href="#contact">
               <div
                 id="contact-tab"
-                class="px-3 py-2 border-2 border-solid rounded-xl border-transparent text-white hover:text-green-500 hover:border-green-500 transform duration-300"
+                class="px-1 py-4 border-2 border-solid rounded-xl border-transparent text-white hover:text-[var(--gold)] hover:border-[var(--gold)] transform duration-300"
               >
                 <p
                   i18n="contact-tab"
-                  class="text-xl font-semibold"
+                  class="w-min min-w-28 text-xl text-center font-semibold"
                 >
                   Contact
                 </p>
@@ -189,51 +188,51 @@
           </div>
         </div>
       </div>
-
-      <!-- Mobile Menu -->
-      <div
-        id="mobile-menu"
-        class="mobile-menu animate__animated animate__pullDown--mobile-menu animate__pullUp--mobile-menu"
-      >
-        <div
-          id="mobile-menu__container"
-          class="mobile-menu__container"
-        >
-          <a href="#about">
-            <div class="mobile-menu__element">
-              <p
-                i18n="about-option"
-                class="mobile-menu__label"
-              >
-                Who We Are
-              </p>
-            </div>
-          </a>
-
-          <a href="#services">
-            <div class="mobile-menu__element">
-              <p
-                i18n="services-option"
-                class="mobile-menu__label"
-              >
-                What We Offer
-              </p>
-            </div>
-          </a>
-
-          <a href="#contact">
-            <div class="mobile-menu__element">
-              <p
-                i18n="contact-option"
-                class="mobile-menu__label"
-              >
-                Contact
-              </p>
-            </div>
-          </a>
-        </div>
-      </div>
     </header>
+
+    <!-- Mobile Menu -->
+    <div
+      id="mobile-menu"
+      class="mobile-menu animate__animated animate__pullDown--mobile-menu animate__pullUp--mobile-menu"
+    >
+      <div
+        id="mobile-menu__container"
+        class="mobile-menu__container"
+      >
+        <a href="#about">
+          <div class="mobile-menu__element">
+            <p
+              i18n="about-option"
+              class="mobile-menu__label"
+            >
+              Who We Are
+            </p>
+          </div>
+        </a>
+
+        <a href="#services">
+          <div class="mobile-menu__element">
+            <p
+              i18n="services-option"
+              class="mobile-menu__label"
+            >
+              What We Offer
+            </p>
+          </div>
+        </a>
+
+        <a href="#contact">
+          <div class="mobile-menu__element">
+            <p
+              i18n="contact-option"
+              class="mobile-menu__label"
+            >
+              Contact
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
 
     <main class="bg-[var(--black)]">
       <!-- Hero Section -->
@@ -466,7 +465,7 @@
       <!-- Contact Section -->
       <section
         id="contact"
-        class="w-full max-w-screen-lg flex flex-col gap-8 mx-auto px-4 py-8 mobile-large:px-6 scroll-mt-20"
+        class="w-full max-w-screen-lg flex flex-col gap-5 mx-auto px-4 py-8 mobile-large:px-6 scroll-mt-20"
       >
         <h1
           i18n="contact-section-header"
@@ -475,130 +474,270 @@
           CONTACT US
         </h1>
 
-        <!-- Address -->
-        <div
-          class="flex flex-row items-center gap-3 p-4 bg-service-card-background bg-cover border-2 border-solid rounded-md border-[var(--gold)]"
-        >
-          <img
-            src="./src/assets/icons/address.png"
-            alt="Address icon"
-            class="w-10 place-self-start"
-          />
-          <div class="flex flex-col gap-2">
-            <h2
-              i18n="contact-section-address"
-              class="text-lg font-medium text-[var(--gold)]"
-            >
-              Address
-            </h2>
-            <a
-              class="text-base text-[var(--gold)] underline hover:opacity-50"
-              href="http://maps.google.com/?q=Cape Coral, FL"
-              target="_blank"
-              >Cape Coral, FL (Mobile Service)</a
-            >
-            <a
-              class="text-base text-[var(--gold)] underline hover:opacity-50"
-              href="http://maps.google.com/?q=Fort Myers, FL"
-              target="_blank"
-              >Fort Myers, FL (Mobile Service)</a
-            >
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 mt-2">
+          <!-- Address -->
+          <div
+            class="flex flex-row items-start gap-3 p-4 bg-service-card-background bg-cover border-2 border-solid rounded-md border-[var(--gold)]"
+          >
+            <img
+              src="./src/assets/icons/address.png"
+              alt="Address icon"
+              class="w-10"
+            />
+            <div class="flex flex-col gap-2">
+              <h2
+                i18n="contact-section-address"
+                class="text-lg font-medium text-[var(--gold)]"
+              >
+                Address
+              </h2>
+              <a
+                class="text-base text-[var(--gold)] underline hover:opacity-50"
+                href="http://maps.google.com/?q=Cape Coral, FL"
+                target="_blank"
+                >Cape Coral, FL (Mobile Service)</a
+              >
+              <a
+                class="text-base text-[var(--gold)] underline hover:opacity-50"
+                href="http://maps.google.com/?q=Fort Myers, FL"
+                target="_blank"
+                >Fort Myers, FL (Mobile Service)</a
+              >
+            </div>
           </div>
-        </div>
 
-        <!-- Phone -->
-        <div
-          class="flex flex-row items-center gap-3 p-4 bg-service-card-background bg-cover border-2 border-solid rounded-md border-[var(--gold)]"
-        >
-          <img
-            src="./src/assets/icons/phone.png"
-            alt="Phone icon"
-            class="w-10 place-self-start"
-          />
-          <div class="flex flex-col gap-2">
-            <h2
-              i18n="contact-section-phone"
-              class="text-lg font-medium text-[var(--gold)]"
-            >
-              Phone
-            </h2>
-            <a
-              class="text-base text-[var(--gold)] underline hover:opacity-50"
-              href="tel:+12392242330"
-              target="_blank"
-              >+1 (239) 224-2330</a
-            >
-            <a
-              class="text-base text-[var(--gold)] underline hover:opacity-50"
-              href="tel:+12397910290"
-              target="_blank"
-              >+1 (239) 791-0290</a
-            >
+          <!-- Phone -->
+          <div
+            class="flex flex-row items-start gap-3 p-4 bg-service-card-background bg-cover border-2 border-solid rounded-md border-[var(--gold)]"
+          >
+            <img
+              src="./src/assets/icons/phone.png"
+              alt="Phone icon"
+              class="w-10"
+            />
+            <div class="flex flex-col gap-2">
+              <h2
+                i18n="contact-section-phone"
+                class="text-lg font-medium text-[var(--gold)]"
+              >
+                Phone
+              </h2>
+              <a
+                class="text-base text-[var(--gold)] underline hover:opacity-50"
+                href="tel:+12392242330"
+                target="_blank"
+                >+1 (239) 224-2330</a
+              >
+              <a
+                class="text-base text-[var(--gold)] underline hover:opacity-50"
+                href="tel:+12397910290"
+                target="_blank"
+                >+1 (239) 791-0290</a
+              >
+            </div>
           </div>
-        </div>
 
-        <!-- Email -->
-        <div
-          class="flex flex-row items-center gap-3 p-4 bg-service-card-background bg-cover border-2 border-solid rounded-md border-[var(--gold)]"
-        >
-          <img
-            src="./src/assets/icons/email.png"
-            alt="Email icon"
-            class="w-10 place-self-start"
-          />
-          <div class="flex flex-col gap-2">
-            <h2
-              i18n="contact-section-email"
-              class="text-lg font-medium text-[var(--gold)]"
-            >
-              Email
-            </h2>
-            <a
-              class="text-base text-[var(--gold)] underline hover:opacity-50"
-              href="mailto:business@autocodesolution.com"
-              target="_blank"
-              >sample@email.com</a
-            >
+          <!-- Email -->
+          <div
+            class="flex flex-row items-start gap-3 p-4 bg-service-card-background bg-cover border-2 border-solid rounded-md border-[var(--gold)]"
+          >
+            <img
+              src="./src/assets/icons/email.png"
+              alt="Email icon"
+              class="w-10"
+            />
+            <div class="flex flex-col gap-2">
+              <h2
+                i18n="contact-section-email"
+                class="text-lg font-medium text-[var(--gold)]"
+              >
+                Email
+              </h2>
+              <a
+                class="text-base text-[var(--gold)] underline hover:opacity-50"
+                href="mailto:business@autocodesolution.com"
+                target="_blank"
+                >sample@email.com</a
+              >
+            </div>
           </div>
-        </div>
 
-        <!-- Hours -->
-        <div
-          class="flex flex-row items-center gap-3 p-4 bg-service-card-background bg-cover border-2 border-solid rounded-md border-[var(--gold)]"
-        >
-          <img
-            src="./src/assets/icons/hours.png"
-            alt="Hours icon"
-            class="w-10 place-self-start"
-          />
-          <div class="flex flex-col gap-2">
-            <h2
-              i18n="contact-section-hours-header"
-              class="text-lg font-medium text-[var(--gold)]"
-            >
-              Hours
-            </h2>
-            <p
-              i18n="contact-section-hours-info"
-              class="text-base text-[var(--gold)] whitespace-pre-line"
-            >
-              Monday - Friday:
-              <br />
-              8:00 AM - 6:00 PM
-              <br />
-              <br />
-              Saturday:
-              <br />
-              9:00 AM - 4:00 PM
-              <br />
-              <br />
-              Sunday: Closed
-            </p>
+          <!-- Hours -->
+          <div
+            class="flex flex-row items-start gap-3 p-4 bg-service-card-background bg-cover border-2 border-solid rounded-md border-[var(--gold)]"
+          >
+            <img
+              src="./src/assets/icons/hours.png"
+              alt="Hours icon"
+              class="w-10"
+            />
+            <div class="flex flex-col gap-2">
+              <h2
+                i18n="contact-section-hours-header"
+                class="text-lg font-medium text-[var(--gold)]"
+              >
+                Hours
+              </h2>
+              <p
+                i18n="contact-section-hours-info"
+                class="text-base text-[var(--gold)] whitespace-pre-line"
+              >
+                Monday - Friday:
+                <br />
+                8:00 AM - 6:00 PM
+                <br />
+                <br />
+                Saturday:
+                <br />
+                9:00 AM - 4:00 PM
+                <br />
+                <br />
+                Sunday: Closed
+              </p>
+            </div>
           </div>
         </div>
       </section>
-
-      <div class="h-screen bg-black"></div>
     </main>
+
+    <footer class="w-full bg-service-card-background bg-cover">
+      <div
+        class="w-full max-w-screen-lg flex flex-col justify-center items-start md:items-center gap-4 mx-auto p-4"
+      >
+        <a
+          href="#"
+          class="flex flex-row justify-start items-center gap-2"
+        >
+          <!-- Logo -->
+          <img
+            src="./src/assets/pictures/logo.png"
+            alt="logo"
+            class="w-16"
+          />
+
+          <!-- Company Name -->
+          <h1
+            class="inline-block max-w-[140px] mobile-medium:max-w-[180px] mobile-large:max-w-[220px] mobile-xl:max-w-none text-lg mobile-large:text-xl md:text-2xl lg:text-3xl text-left font-semibold gold-shine"
+          >
+            Rise & Shine Home Services
+          </h1>
+        </a>
+
+        <!-- Social Medias -->
+        <ul class="social-media-list">
+          <!-- TikTok -->
+          <li class="social-media-list__element">
+            <a
+              class="social-media-link"
+              data-social="tiktok"
+              aria-label="TikTok"
+              href="https://www.tiktok.com"
+              target="_blank"
+            >
+              <div class="social-media-filled"></div>
+              <svg
+                xml:space="preserve"
+                viewBox="6 6 36 36"
+                class="social-media"
+                fill="currentColor"
+                height="24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill="currentColor"
+                  d="M38.0766847,15.8542954 C36.0693906,15.7935177 34.2504839,14.8341149 32.8791434,13.5466056 C32.1316475,12.8317108 31.540171,11.9694126 31.1415066,11.0151329 C30.7426093,10.0603874 30.5453728,9.03391952 30.5619062,8 L24.9731521,8 L24.9731521,28.8295196 C24.9731521,32.3434487 22.8773693,34.4182737 20.2765028,34.4182737 C19.6505623,34.4320127 19.0283477,34.3209362 18.4461858,34.0908659 C17.8640239,33.8612612 17.3337909,33.5175528 16.8862248,33.0797671 C16.4386588,32.6422142 16.0833071,32.1196657 15.8404292,31.5426268 C15.5977841,30.9658208 15.4727358,30.3459348 15.4727358,29.7202272 C15.4727358,29.0940539 15.5977841,28.4746337 15.8404292,27.8978277 C16.0833071,27.3207888 16.4386588,26.7980074 16.8862248,26.3604545 C17.3337909,25.9229017 17.8640239,25.5791933 18.4461858,25.3491229 C19.0283477,25.1192854 19.6505623,25.0084418 20.2765028,25.0219479 C20.7939283,25.0263724 21.3069293,25.1167239 21.794781,25.2902081 L21.794781,19.5985278 C21.2957518,19.4900128 20.7869423,19.436221 20.2765028,19.4380839 C18.2431278,19.4392483 16.2560928,20.0426009 14.5659604,21.1729264 C12.875828,22.303019 11.5587449,23.9090873 10.7814424,25.7878401 C10.003907,27.666593 9.80084889,29.7339663 10.1981162,31.7275214 C10.5953834,33.7217752 11.5748126,35.5530237 13.0129853,36.9904978 C14.4509252,38.4277391 16.2828722,39.4064696 18.277126,39.8028054 C20.2711469,40.1991413 22.3382874,39.9951517 24.2163416,39.2169177 C26.0948616,38.4384508 27.7002312,37.1209021 28.8296253,35.4300711 C29.9592522,33.7397058 30.5619062,31.7522051 30.5619062,29.7188301 L30.5619062,18.8324027 C32.7275484,20.3418321 35.3149087,21.0404263 38.0766847,21.0867664 L38.0766847,15.8542954 Z"
+                ></path>
+              </svg>
+            </a>
+            <div class="social-media-tooltip">TikTok</div>
+          </li>
+
+          <!-- Facebook -->
+          <li class="social-media-list__element">
+            <a
+              class="social-media-link"
+              data-social="facebook"
+              aria-label="Facebook"
+              href="https://www.facebook.com"
+              target="_blank"
+            >
+              <div class="social-media-filled"></div>
+              <svg
+                xml:space="preserve"
+                viewBox="0 0 24 24"
+                class="social-media"
+                fill="currentColor"
+                height="24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill="currentColor"
+                  d="M23.9981 11.9991C23.9981 5.37216 18.626 0 11.9991 0C5.37216 0 0 5.37216 0 11.9991C0 17.9882 4.38789 22.9522 10.1242 23.8524V15.4676H7.07758V11.9991H10.1242V9.35553C10.1242 6.34826 11.9156 4.68714 14.6564 4.68714C15.9692 4.68714 17.3424 4.92149 17.3424 4.92149V7.87439H15.8294C14.3388 7.87439 13.8739 8.79933 13.8739 9.74824V11.9991H17.2018L16.6698 15.4676H13.8739V23.8524C19.6103 22.9522 23.9981 17.9882 23.9981 11.9991Z"
+                ></path>
+              </svg>
+            </a>
+            <div class="social-media-tooltip">Facebook</div>
+          </li>
+
+          <!-- Instagram -->
+          <li class="social-media-list__element">
+            <a
+              class="social-media-link"
+              data-social="instagram"
+              aria-label="Instagram"
+              href="https://www.instagram.com"
+              target="_blank"
+            >
+              <div class="social-media-filled"></div>
+              <svg
+                xml:space="preserve"
+                viewBox="0 0 16 16"
+                class="social-media"
+                fill="currentColor"
+                height="16"
+                width="16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill="currentColor"
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                ></path>
+              </svg>
+            </a>
+            <div class="social-media-tooltip">Instagram</div>
+          </li>
+
+          <!-- YouTube -->
+          <li class="social-media-list__element">
+            <a
+              class="social-media-link"
+              aria-label="YouTube"
+              data-social="youtube"
+              href="https://www.youtube.com"
+              target="_blank"
+            >
+              <div class="social-media-filled"></div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="social-media"
+                viewBox="0 0 16 16"
+                xml:space="preserve"
+              >
+                <path
+                  d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </a>
+            <div class="social-media-tooltip">YouTube</div>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
